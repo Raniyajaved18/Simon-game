@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pink {
+    background-color: rgb(191, 63, 106);
+}
+
+.green {
+    background-color: rgb(0, 128, 126);
+}
+
+.orange {
+    background-color: rgb(255, 128, 0);
+}
+
+.blue {
+    background-color: rgb(0, 153, 255);
+}
+
+.btn.pressed {
+    background-color: yellow;
+    /* You can use any color or styling you prefer */
+}
